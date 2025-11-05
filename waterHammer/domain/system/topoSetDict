@@ -21,7 +21,10 @@ actions
         type    cellSet;
         action  new;
         source  regionToCell;
-        insidePoints ((0.001 0.001 0.001));
+        sourceInfo
+        {
+            insidePoints ((0.001 0.001 0.001));
+        }
     }
 
     {

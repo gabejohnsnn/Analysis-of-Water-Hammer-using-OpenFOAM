@@ -73,6 +73,9 @@ This will:
 - Set up the overset zones
 - Initialize the zoneID field
 
+**⚠️ Expected Warning:**
+You will see a deprecation warning about `changeDictionary` - this is normal and the simulation will work fine. See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for details.
+
 ### Step 3: Run the Simulation
 
 **Option A: Serial Run (for testing)**
@@ -180,6 +183,10 @@ cd ..
 - Total (merged): ~13,000-15,000 cells
 
 ## Troubleshooting
+
+**📖 For detailed troubleshooting, see [TROUBLESHOOTING.md](TROUBLESHOOTING.md)**
+
+### Common Issues
 
 ### Issue: "Command not found" errors
 

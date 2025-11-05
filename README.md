@@ -8,6 +8,8 @@ This repository is compatible with **OpenFOAM 11** (Foundation version).
 
 For detailed instructions on running this simulation using Docker, see **[DOCKER_INSTRUCTIONS.md](DOCKER_INSTRUCTIONS.md)**.
 
+**Having issues?** Check **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** for solutions to common errors.
+
 **Quick command:**
 ```bash
 docker pull openfoam/openfoam11-paraview510

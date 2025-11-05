@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-libs            (overset);
+libs            ("overset");
 
 application     overPimpleDyMFoam;
 
