@@ -8,4 +8,8 @@ echo -e "Changing patch type"
 
 changeDictionary >&1 | tee log.changeDictionary
 
-transformPoints -translate "(0 0.1 0)"
+echo -e "Transforming mesh"
+
+transformPoints << EOF
+translate=(0 0.1 0)
+EOF
